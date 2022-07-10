@@ -11,7 +11,7 @@ namespace Overload_operator
             Money Your_money = new Money(100, Money.Currency.UAH);
             Money Hmoney = new Money(100, Money.Currency.USD);
             Money Nmoney = new Money(50, Money.Currency.USD);
-            Money BBmoney = new Money(200,  Money.Currency.EUR);
+            Money BBmoney = new Money(200, Money.Currency.EUR);
             Mymoney.Print();
             Money sum = Mymoney + His_money;
             Money sum1 = Your_money+Mymoney;
